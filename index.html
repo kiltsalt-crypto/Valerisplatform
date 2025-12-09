@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#3b82f6" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <title>Valeris - Master Futures Trading & Pass Funded Account Evaluations</title>
+    <meta name="description" content="Professional trading journal and education platform. Track trades, analyze performance, learn strategies, and master futures trading to pass TopStep evaluations. Join 10,000+ traders improving their skills daily." />
+    <meta name="keywords" content="trading journal, futures trading, day trading, TopStep, funded trading account, trading education, paper trading, trading simulator, risk management, trading strategies, NinjaTrader, technical analysis" />
+    <meta name="author" content="Valeris" />
+    <link rel="canonical" href="https://valeris.trading/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://valeris.trading/" />
+    <meta property="og:site_name" content="Valeris" />
+    <meta property="og:title" content="Valeris - Master Futures Trading & Pass Funded Account Evaluations" />
+    <meta property="og:description" content="Professional trading journal and education platform. Track trades, analyze performance, learn strategies, and master futures trading to pass TopStep evaluations." />
+    <meta property="og:image" content="https://valeris.trading/image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@valeris" />
+    <meta name="twitter:creator" content="@valeris" />
+    <meta name="twitter:title" content="Valeris - Master Futures Trading & Pass Funded Account Evaluations" />
+    <meta name="twitter:description" content="Professional trading journal and education platform. Track trades, analyze performance, and master futures trading." />
+    <meta name="twitter:image" content="https://valeris.trading/image.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Valeris",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "2847"
+      },
+      "description": "Professional trading journal and education platform for futures traders. Track trades, analyze performance, learn strategies, and master trading to pass funded account evaluations.",
+      "featureList": [
+        "Advanced Trading Journal",
+        "Real-time Performance Analytics",
+        "Paper Trading Simulator",
+        "Trade Replay & Backtesting",
+        "Risk Management Tools",
+        "Economic Calendar",
+        "AI Trading Coach",
+        "Community Forum",
+        "Video Courses",
+        "TopStep Tracker"
+      ]
+    }
+    </script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => console.log('SW registered:', registration))
+            .catch(err => console.log('SW registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>
