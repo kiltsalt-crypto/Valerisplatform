@@ -14,7 +14,7 @@
     "@hcaptcha/react-hcaptcha": "^1.16.0",
     "@sentry/react": "^10.29.0",
     "@sentry/vite-plugin": "^4.6.1",
-    "@supabase/supabase-js": "^2.57.4",
+    "@supabase/supabase-js": "^2.87.1",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
